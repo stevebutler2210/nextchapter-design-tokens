@@ -1,0 +1,22 @@
+{
+  "name": "@stevebutler2210/nextchapter-design-tokens",
+  "version": "0.1.0",
+  "description": "Shared Tailwind CSS design tokens for NextChapter",
+  "main": "tokens.css",
+  "exports": {
+    ".": "./tokens.css"
+  },
+  "files": [
+    "tokens.css"
+  ],
+  "keywords": [
+    "design-tokens",
+    "tailwind",
+    "nativewind",
+    "nextchapter"
+  ],
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

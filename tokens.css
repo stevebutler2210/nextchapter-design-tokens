@@ -1,0 +1,89 @@
+/* @stevebutler2210/nextchapter-design-tokens
+   Single source of truth for NextChapter design tokens.
+   Consumed by the Rails app (Tailwind v4 @theme) and the
+   mobile app (NativeWind v5 global.css @import).
+   Do not edit token values here without updating docs/DESIGN.md first. */
+
+@theme {
+  /* Colours */
+  --color-surface: #fcf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f7f4f0;
+  --color-surface-container: #f0ede9;
+  --color-surface-container-high: #e5e2de;
+  --color-surface-container-highest: #dbd8d4;
+  --color-surface-variant: #e1ddd8;
+  --color-on-surface: #1c1c1a;
+  --color-primary: #89453a;
+  --color-primary-container: #f4ebe9;
+  --color-on-primary: #ffffff;
+  --color-tertiary: #7a826e;
+  --color-tertiary-container: #eff1ed;
+  --color-outline: #85827e;
+  --color-outline-variant: #d1cfcc;
+
+  /* Typography */
+  --font-newsreader: "Newsreader", Georgia, serif;
+  --font-work-sans: "Work Sans", system-ui, sans-serif;
+
+  /* Radii */
+  --radius-sm: 2px;
+  --radius: 4px;
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-13: 52px;
+  --spacing-14: 56px;
+  --spacing-15: 60px;
+  --spacing-16: 64px;
+}
+
+/* :root block mirrors @theme values for NativeWind's CSS variable runtime resolver */
+:root {
+  --color-surface: #fcf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f7f4f0;
+  --color-surface-container: #f0ede9;
+  --color-surface-container-high: #e5e2de;
+  --color-surface-container-highest: #dbd8d4;
+  --color-surface-variant: #e1ddd8;
+  --color-on-surface: #1c1c1a;
+  --color-primary: #89453a;
+  --color-primary-container: #f4ebe9;
+  --color-on-primary: #ffffff;
+  --color-tertiary: #7a826e;
+  --color-tertiary-container: #eff1ed;
+  --color-outline: #85827e;
+  --color-outline-variant: #d1cfcc;
+  --font-newsreader: "Newsreader", Georgia, serif;
+  --font-work-sans: "Work Sans", system-ui, sans-serif;
+  --radius-sm: 2px;
+  --radius: 4px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-13: 52px;
+  --spacing-14: 56px;
+  --spacing-15: 60px;
+  --spacing-16: 64px;
+}
