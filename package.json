@@ -1,13 +1,15 @@
 {
   "name": "@stevebutler2210/nextchapter-design-tokens",
-  "version": "0.1.0",
-  "description": "Shared Tailwind CSS design tokens for NextChapter",
+  "version": "0.2.0",
+  "description": "Shared design tokens for NextChapter",
   "main": "tokens.css",
   "exports": {
-    ".": "./tokens.css"
+    ".": "./tokens.css",
+    "./tokens": "./tokens.ts"
   },
   "files": [
-    "tokens.css"
+    "tokens.css",
+    "tokens.ts"
   ],
   "keywords": [
     "design-tokens",
